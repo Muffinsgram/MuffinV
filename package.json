@@ -1,0 +1,12 @@
+{
+  "name": "your-vercel-project",
+  "version": "1.0.0",
+  "description": "Vercel API for FiveM Licenses",
+  "main": "api/check-license.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "mongodb": "^6.x.x" 
+  }
+}
