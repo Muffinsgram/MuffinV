@@ -5,8 +5,8 @@ const { MongoClient } = require('mongodb');
 
 // Vercel Environment Variable olarak ayarlayın: MONGODB_URI
 const MONGODB_URI = process.env.MONGODB_URI;
-const DB_NAME = 'FiveM'; // Kendi veritabanı adınızı girin
-const COLLECTION_NAME = 'MuffinV'; // Lisans anahtarlarını tutan koleksiyonunuzun adı
+const DB_NAME = 'MuffinV'; // Kendi veritabanı adınızı girin
+const COLLECTION_NAME = 'maddex-license'; // Lisans anahtarlarını tutan koleksiyonunuzun adı
 
 let cachedDb = null;
 
